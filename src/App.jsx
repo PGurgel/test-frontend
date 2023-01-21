@@ -1,9 +1,9 @@
-function App() {
-  return (
+import Header from "./components/Header";
+
+export default function App() {
+  return(
     <div>
-      <h1>ola mundo</h1>
+      <Header/>
     </div>
   )
 }
-
-export default App
